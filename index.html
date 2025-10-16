@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        #nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: #333;
+            z-index: 1000;
+        }
+        .nav {
+            display: flex;
+            justify-content: center;
+            padding: 14px 0;
+            margin-bottom: 1px;
+        }
+        .nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        .nav a:hover {
+            background-color: #575757;
+        }
+        .home {
+            height: 100vh;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
+            background-image: 16094.png;
+        }
+        .image {
+            margin-top: 20px;
+        }
+        input{
+            text-align: center;
+            margin-top: 20px;
+            border: 1px solid white;
+            padding:10px 20px;
+            border-radius:13px;
+            background-color: black;
+            color: white;
+
+        }
+        input:hover{
+            background-color:#575757;}
+
+        .button-continue{
+            display: flex;
+            justify-content: center;
+            margin-top:-80px;
+            margin-left:-450px
+        }
+        .installation {
+            padding: 60px 20px;
+            background-color: #e2e2e2;
+            padding-bottom: 200px;
+
+        }
+        .about {
+            padding: 60px 20px;
+            background-color: white;
+            padding-bottom: 200px;
+        }
+        .contact {
+            padding: 60px 20px;
+            background-color: #f4f4f4;
+            padding-bottom: 200px;
+        }
+        .form {
+            display: flex;
+            flex-direction: column;
+            align-items:center;
+        background-color: aliceblue;
+    </style>
+<section id="nav">
+    <div class="nav">
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="#installation">installation</a>
+        <a href="#contact">contact</a>
+    </div>
+    </section>
+    <section id="home">
+        <div class="image">
+            <img src="16094.png" alt="Home Image" style="max-width: 100%; height: auto;">
+
+
+        </div>
+        <div class="button-continue">
+            <a href="#installation">
+            <input type="button" value="Continue">
+            </div>
+            </a>
+    </section>
+    <section id="installation">
+        <div class="installation">
+        <h2 style="text-align: center;">Installation</h2>
+        <p style="text-align: center;">Follow these steps to install the application:</p>
+        <ol style="max-width: 600px; margin: auto;">
+            <li>Download the installer from the official website.</li>
+            <li>You can dowload the latest version of python at <a href="www.python.org">python.org</a></li>
+            <li>Run the installer and follow the on-screen instructions.</li>
+            <li>Once installed, launch the application from your desktop or start menu.</li>
+        </ol>
+    </div>
+</section>
+<section id="about">
+    <div class="about">
+        <h2 style="text-align: center;">About</h2>
+        <p style="text-align: center;">this website is designed to help users install and set up the application quickly and easily.</p>
+    </div>
+
+</section>
+<section id="contact">
+    <div class="contact" style="padding: 60px 20px; background-color: #f4f4f4;">
+        <h2 style="text-align: center;">Contact</h2>
+        <div class="form">
+            <forms action="submit" style="align-items : center; background-color: #f4f4f4;">
+                <input type="text" placeholder="Name" required><br><br>
+                <input type="email" placeholder="Email" required><br><br>
+                <input type="text" placeholder="Message" required style="width: 300px; height: 100px;"><br><br>
+                <input type="submit" value="Submit">
+            </forms>
+                    </div>
+                    </div>
+</body>
+<section id="footer">
+    <div class="footer" style="padding: 20px; background-color: #333; color: white;">
+        <p style="text-align: center;">&copy; 2025 ByteBuzz  Creations.
+
+</html>
